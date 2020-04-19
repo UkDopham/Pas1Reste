@@ -130,107 +130,102 @@
     </AndroidResource>
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\recipes\puff-pastry-plated.jpg">
+    <AndroidResource Include="Resources\drawable\recipes\waffle.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </AndroidResource>
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\recipes\ramen-bowl-with-sides.jpg">
+    <AndroidResource Include="Resources\drawable\recipes\bagels.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </AndroidResource>
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\recipes\fresh-and-crisp-biscotti.jpg">
+    <AndroidResource Include="Resources\drawable\recipes\Biscotte.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </AndroidResource>
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\recipes\bagels-on-wire-rack.jpg">
+    <AndroidResource Include="Resources\drawable\recipes\cafeGourmant.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </AndroidResource>
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\recipes\saucy-honey-garlic-wings.jpg">
+    <AndroidResource Include="Resources\drawable\recipes\cheeseCake.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </AndroidResource>
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\recipes\holiday-chocolate-treat.jpg">
+    <AndroidResource Include="Resources\drawable\recipes\chocolat.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </AndroidResource>
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\recipes\this-baking-looks-so-good-you-can-almost-taste-it.jpg">
+    <AndroidResource Include="Resources\drawable\recipes\donut.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </AndroidResource>
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\recipes\stack-of-pink-macarons-on-pink.jpg">
+    <AndroidResource Include="Resources\drawable\recipes\gateauAuFour.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </AndroidResource>
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\recipes\breakfast-never-looked-so-tasty.jpg">
+    <AndroidResource Include="Resources\drawable\recipes\gateauChocolat.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </AndroidResource>
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\recipes\breakfast-flatlay-with-fruit-and-waffles.jpg">
+    <AndroidResource Include="Resources\drawable\recipes\GateauCitron.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </AndroidResource>
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\recipes\fried-chicken-wings-pub-food.jpg">
+    <AndroidResource Include="Resources\drawable\recipes\hamburger.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </AndroidResource>
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\recipes\freshly-baked-lemon-cake-with-powdered-sugar.jpg">
+    <AndroidResource Include="Resources\drawable\recipes\macarons.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </AndroidResource>
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\recipes\afternooncoffeeandcoffeecake.jpg">
+    <AndroidResource Include="Resources\drawable\recipes\pancake.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </AndroidResource>
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\recipes\colorful-fruit-and-custard-tart.jpg">
+    <AndroidResource Include="Resources\drawable\recipes\pizzaMargarita.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </AndroidResource>
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\recipes\chocolate-cake-with-toffee-sauced-drizzled-over.jpg">
+    <AndroidResource Include="Resources\drawable\recipes\poulet.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </AndroidResource>
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\recipes\assorted-cooking-spices-in-spoons.jpg">
+    <AndroidResource Include="Resources\drawable\recipes\PouletFrit.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </AndroidResource>
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\recipes\first-slice-of-fresh-margarita-pizza.jpg">
+    <AndroidResource Include="Resources\drawable\recipes\ramen.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </AndroidResource>
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\recipes\hamburger-and-fries.jpg">
+    <AndroidResource Include="Resources\drawable\recipes\ratatouilleDHesidrate.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </AndroidResource>
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\recipes\fresh-plated-salad.jpg">
+    <AndroidResource Include="Resources\drawable\recipes\Salade.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </AndroidResource>
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\recipes\berry-cheesecake.jpg">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </AndroidResource>
-  </ItemGroup>
-  <ItemGroup>
-    <AndroidResource Include="Resources\drawable\recipes\hot-fresh-donut.jpg">
+    <AndroidResource Include="Resources\drawable\recipes\tarteAuxFruits.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </AndroidResource>
   </ItemGroup>
