@@ -1,0 +1,16 @@
+
+*.sqlite
+*.sqlite-journal
+Roberta/Roberta/Roberta.Android/obj/Release/90/aapt2.version
+*.java
+*.props
+*.cache
+*.flata
+*.stamp
+*.jar
+*.xml
+*.txt
+*.zip
+*.png
+*.aidl
+*.jpg

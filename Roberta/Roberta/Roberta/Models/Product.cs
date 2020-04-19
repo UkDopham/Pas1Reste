@@ -4,7 +4,7 @@ using System.Diagnostics.CodeAnalysis;
 using System.Linq;
 using System.Text;
 
-namespace KNNPING.Models
+namespace Roberta.Models
 {
     public class Product : IComparable<Product>
     {
@@ -29,6 +29,14 @@ namespace KNNPING.Models
         {
             this._name = name;
             this._recipeName = recipeName;
+        }
+
+        public static List<Product> GetAllProducts(List<Recipe> recettes){
+            List<Product> products = new List<Product>();
+
+            recettes.ForEach(r => products.AddRange(r.Products()));
+
+            return products;
         }
 
         public float GetDistance()

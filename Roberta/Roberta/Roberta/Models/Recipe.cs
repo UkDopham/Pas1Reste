@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace KNNPING.Models
+namespace Roberta.Models
 {
     public class Recipe
     {
@@ -86,5 +86,27 @@ namespace KNNPING.Models
             this._path = path;
             this._count = count;
         }
+        public Recipe(string name, 
+            string description,
+            DateTime lastCooked,
+            string path,
+            int count = 0)
+        {
+            this._name = name;
+            this._description = description;
+            this._lastCooked = lastCooked;
+            this._products = new Product();
+            this._path = @"recipes/"+path;
+            this._count = count;
+        }
+
+        public void AddProduct(string nomProduit){
+            _products.Add(new Product(nomProduit, this._name));
+        }
+         public void AddProduct(params List<string> nomProduits){
+            nomProduits.ForEach(s => _products.Add(new Product(s, this._name)));            
+        }
+
+
     }
 }
