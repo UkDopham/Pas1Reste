@@ -6,8 +6,23 @@
              mc:Ignorable="d"
              x:Class="Roberta.Views.Catalogue">
   <ContentView.Content>
-      <StackLayout>
-          <Label Text="Hello Xamarin.Forms!" />
-      </StackLayout>
-  </ContentView.Content>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="6*"/>
+            </Grid.RowDefinitions>
+
+            <Grid BackgroundColor="{Binding Red}">
+                <Label Text="Catalogue"
+                       FontFamily="{StaticResource NormalFont}"
+                       FontSize="30"
+                       Margin="10"
+                       TextColor="White"/>
+            </Grid>
+
+            <ScrollView Grid.Row="1">
+                <StackLayout x:Name="ContentSL"/>
+            </ScrollView>
+        </Grid>
+    </ContentView.Content>
 </ContentView>

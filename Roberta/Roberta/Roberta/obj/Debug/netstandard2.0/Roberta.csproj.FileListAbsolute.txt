@@ -33,3 +33,5 @@ C:\Users\Alexa\Documents\GitHub\Pas1Reste\Roberta\Roberta\Roberta\obj\Debug\nets
 C:\Users\Alexa\Documents\GitHub\Pas1Reste\Roberta\Roberta\Roberta\obj\Debug\netstandard2.0\Views\Catalogue.xaml.g.cs
 C:\Users\Alexa\Documents\GitHub\Pas1Reste\Roberta\Roberta\Roberta\obj\Debug\netstandard2.0\Views\Favori.xaml.g.cs
 C:\Users\Alexa\Documents\GitHub\Pas1Reste\Roberta\Roberta\Roberta\obj\Debug\netstandard2.0\Views\Robot.xaml.g.cs
+C:\Users\Alexa\Documents\GitHub\Pas1Reste\Roberta\Roberta\Roberta\obj\Debug\netstandard2.0\Views\Historique.xaml.g.cs
+C:\Users\Alexa\Documents\GitHub\Pas1Reste\Roberta\Roberta\Roberta\obj\Debug\netstandard2.0\Views\Title.xaml.g.cs

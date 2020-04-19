@@ -12,26 +12,7 @@
                 <RowDefinition Height="*"/>
             </Grid.RowDefinitions>
 
-            
-            
-            <StackLayout>
-                <Label Text="RobertAI"
-                   Margin="50,100,50,10"
-                       FontSize="70"
-                       TextColor="{Binding Red}"
-                       HorizontalOptions="Center"
-                       FontFamily="{StaticResource NormalFont}"/>
-                
-                <Label Text=" par PIXOU"
-                       Margin="100,0"
-                       FontSize="20"
-                       TextColor="{Binding Red}"
-                       HorizontalOptions="Center"
-                       FontFamily="{StaticResource NormalFont}"/>
-            </StackLayout>
-
-            <Image 
-                   Source="recipes\ramen.jpg"/>
+            <ContentView Content="{Binding}"/>
 
             <Grid Grid.Row="1">
                 <Grid.ColumnDefinitions>
@@ -46,22 +27,26 @@
                 <ImageButton Padding="5"
                              Grid.Column="0"
                              BackgroundColor="{Binding Red}"
-                             Source="book.png"/>
+                             Source="book.png"
+                             Clicked="CatalogueImageButton_Clicked"/>
 
                 <ImageButton Padding="5"
                              Grid.Column="1"
                              BackgroundColor="{Binding Red}"
-                             Source="heart.png"/>
+                             Source="heart.png"
+                             Clicked="FavoriImageButton_Clicked"/>
 
                 <ImageButton Padding="5"
                              Grid.Column="2"
                              BackgroundColor="{Binding Red}"
-                             Source="artificial.png"/>
+                             Source="artificial.png"
+                             Clicked="IAImageButton_Clicked"/>
 
                 <ImageButton Padding="5"
                              Grid.Column="3"
                              BackgroundColor="{Binding Red}"
-                             Source="clock.png"/>
+                             Source="clock.png"
+                             Clicked="HistoriqueImageButton_Clicked"/>
 
                 <ImageButton Padding="5"
                              Grid.Column="4"

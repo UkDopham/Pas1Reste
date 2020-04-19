@@ -44,12 +44,33 @@ namespace Roberta.Views
         public MainMenu()
         {
             InitializeComponent();
+            BindingContext = new Title();
         }
 
         private void OptionsImageButton_Clicked(object sender, EventArgs e)
         {
             Page mainPage = Application.Current.MainPage;
             mainPage.BindingContext = new Options();
+        }
+
+        private void HistoriqueImageButton_Clicked(object sender, EventArgs e)
+        {
+            BindingContext = new Historique();
+        }
+
+        private void FavoriImageButton_Clicked(object sender, EventArgs e)
+        {
+            BindingContext = new Favori();
+        }
+
+        private void CatalogueImageButton_Clicked(object sender, EventArgs e)
+        {
+            BindingContext = new Catalogue();
+        }
+
+        private void IAImageButton_Clicked(object sender, EventArgs e)
+        {
+            BindingContext = new Robot();
         }
     }
 }

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Roberta.Models;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -12,6 +13,20 @@ namespace Roberta.Views
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class Robot : ContentView
     {
+        public Color Red
+        {
+            get
+            {
+                return ColorRoberta.Red();
+            }
+        }
+        public Color Grey
+        {
+            get
+            {
+                return ColorRoberta.Grey();
+            }
+        }
         public Robot()
         {
             InitializeComponent();

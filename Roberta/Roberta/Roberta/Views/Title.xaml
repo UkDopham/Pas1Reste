@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentView xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="Roberta.Views.Title">
+  <ContentView.Content>
+      <StackLayout>
+            <StackLayout>
+                <Label Text="RobertAI"
+                   Margin="50,100,50,10"
+                       FontSize="70"
+                       TextColor="{Binding Red}"
+                       HorizontalOptions="Center"
+                       FontFamily="{StaticResource NormalFont}"/>
+
+                <Label Text=" par PIXOU"
+                       Margin="100,0"
+                       FontSize="20"
+                       TextColor="{Binding Red}"
+                       HorizontalOptions="Center"
+                       FontFamily="{StaticResource NormalFont}"/>
+            </StackLayout>
+
+        </StackLayout>
+  </ContentView.Content>
+</ContentView>
