@@ -10,7 +10,7 @@ namespace KNNPING.Models
     {
         protected string _name;
         protected string _recipeName;
-
+        public List<Recipe> recipes;
         public string RecipeName
         {
             get
@@ -33,12 +33,7 @@ namespace KNNPING.Models
 
         public float GetDistance()
         {
-            List<Recipe> recipes = new List<Recipe>();
-            //recipes.Add(new Recipe("cake", "test", DateTime.Now, 1));
-            //recipes.Add(new Recipe("soda", "test", new DateTime(1999,1,1), 3));
-            //recipes.Add(new Recipe("soupe", "test", new DateTime(2009, 1, 1), 3));
-            //recipes.Add(new Recipe("voiture", "test", DateTime.Now, 1));
-            //Recipe recipe = recipes.First(x => x.Name == this._recipe.Name); //Trouver la recette à partir du nom dans la base de donnée
+            Recipe recipe = recipes.First(x => x.Name == this._recipeName); //Trouver la recette à partir du nom dans la base de donnée
             return recipe.Count + 1/((DateTime.Now - recipe.LastCooked).Days == 0 ? 1 : (DateTime.Now - recipe.LastCooked).Days);            
         }
 
