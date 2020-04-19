@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentView xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="Roberta.Views.MainMenu">
+  <ContentView.Content>
+        <Grid BackgroundColor="{Binding Red}">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="5*"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+
+            <StackLayout>
+                <Label Text="RobertAI"
+                   Margin="100,100,100,10"
+                       FontSize="100"
+                       HorizontalOptions="Center"
+                       TextColor="White"
+                       FontFamily="{StaticResource NormalFont}"/>
+                
+                <Label Text=" par PIXOU"
+                       Margin="100,0"
+                       FontSize="25"
+                       HorizontalOptions="Center"
+                       TextColor="White"/>
+            </StackLayout>
+            
+            <Grid Grid.Row="1">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+
+                <StackLayout Grid.Column="0"
+                             Margin="5">
+                    <Label Text="Catalogue"
+                       FontSize="30"
+                       HorizontalOptions="Center"
+                       TextColor="White"
+                       FontFamily="{StaticResource NormalFont}"/>
+                    
+                    <ImageButton Padding="5"
+                             BackgroundColor="Transparent"
+                             Source="book.png"/>
+                    
+                </StackLayout>
+
+                <StackLayout Grid.Column="1"
+                             Margin="5">
+                    <Label Text="Favori"
+                       FontSize="30"
+                       HorizontalOptions="Center"
+                       TextColor="White"
+                       FontFamily="{StaticResource NormalFont}"/>
+
+                    <ImageButton Padding="5"
+                             BackgroundColor="Transparent"
+                             Source="heart.png"/>
+
+                </StackLayout>
+
+                <StackLayout Grid.Column="2"
+                             Margin="5">
+                    <Label Text="IA"
+                       FontSize="30"
+                       HorizontalOptions="Center"
+                       TextColor="White"
+                       FontFamily="{StaticResource NormalFont}"/>
+
+                    <ImageButton Padding="5"
+                             BackgroundColor="Transparent"
+                             Source="artificial.png"/>
+
+                </StackLayout>
+
+                <StackLayout Grid.Column="3"
+                             Margin="5">
+                    <Label Text="Historique"
+                       FontSize="30"
+                       HorizontalOptions="Center"
+                       TextColor="White"
+                       FontFamily="{StaticResource NormalFont}"/>
+
+                    <ImageButton Padding="5"
+                             BackgroundColor="Transparent"
+                             Source="clock.png"/>
+
+                </StackLayout>
+
+                <StackLayout Grid.Column="4"
+                             Margin="5">
+                    <Label Text="Options"
+                       FontSize="30"
+                       HorizontalOptions="Center"
+                       TextColor="White"
+                       FontFamily="{StaticResource NormalFont}"/>
+
+                    <ImageButton Padding="5"
+                             BackgroundColor="Transparent"
+                             Source="openmenu.png"
+                                 Clicked="OptionsImageButton_Clicked"/>
+
+                </StackLayout>
+
+            </Grid>
+        </Grid>
+  </ContentView.Content>
+</ContentView>

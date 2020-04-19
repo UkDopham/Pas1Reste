@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "TBgL4LrV5TDxY2ehqBUlG28fbp7D7N/G++gH9RFHs+RtNcocSPL8ItgkXK4CxGN8Y6uMZ7NPFwvVpAy0yUrHrQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Alexa\\Documents\\ESILV\\A3\\Ping\\Roberta\\Roberta\\Roberta.iOS\\Roberta.iOS.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Alexa\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.essentials\\1.3.1\\xamarin.essentials.1.3.1.nupkg.sha512",
+    "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.forms\\4.4.0.991265\\xamarin.forms.4.4.0.991265.nupkg.sha512"
+  ],
+  "logs": []
+}

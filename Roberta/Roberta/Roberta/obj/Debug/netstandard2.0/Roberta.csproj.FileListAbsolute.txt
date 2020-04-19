@@ -1,0 +1,16 @@
+C:\Users\Alexa\Documents\ESILV\A3\Ping\Roberta\Roberta\Roberta\bin\Debug\netstandard2.0\Roberta.deps.json
+C:\Users\Alexa\Documents\ESILV\A3\Ping\Roberta\Roberta\Roberta\bin\Debug\netstandard2.0\Roberta.dll
+C:\Users\Alexa\Documents\ESILV\A3\Ping\Roberta\Roberta\Roberta\bin\Debug\netstandard2.0\ref\Roberta.dll
+C:\Users\Alexa\Documents\ESILV\A3\Ping\Roberta\Roberta\Roberta\bin\Debug\netstandard2.0\Roberta.pdb
+C:\Users\Alexa\Documents\ESILV\A3\Ping\Roberta\Roberta\Roberta\obj\Debug\netstandard2.0\Roberta.csprojAssemblyReference.cache
+C:\Users\Alexa\Documents\ESILV\A3\Ping\Roberta\Roberta\Roberta\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\Alexa\Documents\ESILV\A3\Ping\Roberta\Roberta\Roberta\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\Alexa\Documents\ESILV\A3\Ping\Roberta\Roberta\Roberta\obj\Debug\netstandard2.0\Roberta.csproj.CoreCompileInputs.cache
+C:\Users\Alexa\Documents\ESILV\A3\Ping\Roberta\Roberta\Roberta\obj\Debug\netstandard2.0\Roberta.AssemblyInfoInputs.cache
+C:\Users\Alexa\Documents\ESILV\A3\Ping\Roberta\Roberta\Roberta\obj\Debug\netstandard2.0\Roberta.AssemblyInfo.cs
+C:\Users\Alexa\Documents\ESILV\A3\Ping\Roberta\Roberta\Roberta\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\Alexa\Documents\ESILV\A3\Ping\Roberta\Roberta\Roberta\obj\Debug\netstandard2.0\Roberta.dll
+C:\Users\Alexa\Documents\ESILV\A3\Ping\Roberta\Roberta\Roberta\obj\Debug\netstandard2.0\ref\Roberta.dll
+C:\Users\Alexa\Documents\ESILV\A3\Ping\Roberta\Roberta\Roberta\obj\Debug\netstandard2.0\Roberta.pdb
+C:\Users\Alexa\Documents\ESILV\A3\Ping\Roberta\Roberta\Roberta\obj\Debug\netstandard2.0\Views\MainMenu.xaml.g.cs
+C:\Users\Alexa\Documents\ESILV\A3\Ping\Roberta\Roberta\Roberta\obj\Debug\netstandard2.0\Views\Options.xaml.g.cs
