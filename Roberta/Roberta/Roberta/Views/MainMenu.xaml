@@ -14,8 +14,8 @@
 
             <StackLayout>
                 <Label Text="RobertAI"
-                   Margin="100,100,100,10"
-                       FontSize="100"
+                   Margin="50,100,50,10"
+                       FontSize="140"
                        HorizontalOptions="Center"
                        TextColor="White"
                        FontFamily="{StaticResource NormalFont}"/>
@@ -38,11 +38,7 @@
 
                 <StackLayout Grid.Column="0"
                              Margin="5">
-                    <Label Text="Catalogue"
-                       FontSize="30"
-                       HorizontalOptions="Center"
-                       TextColor="White"
-                       FontFamily="{StaticResource NormalFont}"/>
+                    
                     
                     <ImageButton Padding="5"
                              BackgroundColor="Transparent"
@@ -52,11 +48,7 @@
 
                 <StackLayout Grid.Column="1"
                              Margin="5">
-                    <Label Text="Favori"
-                       FontSize="30"
-                       HorizontalOptions="Center"
-                       TextColor="White"
-                       FontFamily="{StaticResource NormalFont}"/>
+                    
 
                     <ImageButton Padding="5"
                              BackgroundColor="Transparent"
@@ -66,11 +58,7 @@
 
                 <StackLayout Grid.Column="2"
                              Margin="5">
-                    <Label Text="IA"
-                       FontSize="30"
-                       HorizontalOptions="Center"
-                       TextColor="White"
-                       FontFamily="{StaticResource NormalFont}"/>
+                   
 
                     <ImageButton Padding="5"
                              BackgroundColor="Transparent"
@@ -80,11 +68,7 @@
 
                 <StackLayout Grid.Column="3"
                              Margin="5">
-                    <Label Text="Historique"
-                       FontSize="30"
-                       HorizontalOptions="Center"
-                       TextColor="White"
-                       FontFamily="{StaticResource NormalFont}"/>
+                    
 
                     <ImageButton Padding="5"
                              BackgroundColor="Transparent"
@@ -94,11 +78,7 @@
 
                 <StackLayout Grid.Column="4"
                              Margin="5">
-                    <Label Text="Options"
-                       FontSize="30"
-                       HorizontalOptions="Center"
-                       TextColor="White"
-                       FontFamily="{StaticResource NormalFont}"/>
+                    
 
                     <ImageButton Padding="5"
                              BackgroundColor="Transparent"

@@ -575,11 +575,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Alexa\\Documents\\ESILV\\A3\\Ping\\Roberta\\Roberta\\Roberta\\Roberta.csproj",
+      "projectUniqueName": "C:\\Users\\Alexa\\Documents\\GitHub\\Pas1Reste\\Roberta\\Roberta\\Roberta\\Roberta.csproj",
       "projectName": "Roberta",
-      "projectPath": "C:\\Users\\Alexa\\Documents\\ESILV\\A3\\Ping\\Roberta\\Roberta\\Roberta\\Roberta.csproj",
+      "projectPath": "C:\\Users\\Alexa\\Documents\\GitHub\\Pas1Reste\\Roberta\\Roberta\\Roberta\\Roberta.csproj",
       "packagesPath": "C:\\Users\\Alexa\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Alexa\\Documents\\ESILV\\A3\\Ping\\Roberta\\Roberta\\Roberta\\obj\\",
+      "outputPath": "C:\\Users\\Alexa\\Documents\\GitHub\\Pas1Reste\\Roberta\\Roberta\\Roberta\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "wAQkk+7usQwpQNvmkFV7cIwP8Lap22OLPiqAtadVF497fCHfO/K/JzFV8QvOflFG1IHvdY38eT8VZNohw9bSMg==",
+  "dgSpecHash": "EOLJmUxeeMkMLK38MR3kR1nmEkPxqrDOnqhhy7MqfF2IqtePhNAgu98FNUAd7n8vyMgiIx+hvnHSHyfk9iXhpA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Alexa\\Documents\\ESILV\\A3\\Ping\\Roberta\\Roberta\\Roberta\\Roberta.csproj",
+  "projectFilePath": "C:\\Users\\Alexa\\Documents\\GitHub\\Pas1Reste\\Roberta\\Roberta\\Roberta\\Roberta.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Alexa\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\Alexa\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",

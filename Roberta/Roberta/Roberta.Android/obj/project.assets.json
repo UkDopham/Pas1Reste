@@ -1940,11 +1940,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Alexa\\Documents\\ESILV\\A3\\Ping\\Roberta\\Roberta\\Roberta.Android\\Roberta.Android.csproj",
+      "projectUniqueName": "C:\\Users\\Alexa\\Documents\\GitHub\\Pas1Reste\\Roberta\\Roberta\\Roberta.Android\\Roberta.Android.csproj",
       "projectName": "Roberta.Android",
-      "projectPath": "C:\\Users\\Alexa\\Documents\\ESILV\\A3\\Ping\\Roberta\\Roberta\\Roberta.Android\\Roberta.Android.csproj",
+      "projectPath": "C:\\Users\\Alexa\\Documents\\GitHub\\Pas1Reste\\Roberta\\Roberta\\Roberta.Android\\Roberta.Android.csproj",
       "packagesPath": "C:\\Users\\Alexa\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Alexa\\Documents\\ESILV\\A3\\Ping\\Roberta\\Roberta\\Roberta.Android\\obj\\",
+      "outputPath": "C:\\Users\\Alexa\\Documents\\GitHub\\Pas1Reste\\Roberta\\Roberta\\Roberta.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -1965,8 +1965,8 @@
       "frameworks": {
         "monoandroid90": {
           "projectReferences": {
-            "C:\\Users\\Alexa\\Documents\\ESILV\\A3\\Ping\\Roberta\\Roberta\\Roberta\\Roberta.csproj": {
-              "projectPath": "C:\\Users\\Alexa\\Documents\\ESILV\\A3\\Ping\\Roberta\\Roberta\\Roberta\\Roberta.csproj"
+            "C:\\Users\\Alexa\\Documents\\GitHub\\Pas1Reste\\Roberta\\Roberta\\Roberta\\Roberta.csproj": {
+              "projectPath": "C:\\Users\\Alexa\\Documents\\GitHub\\Pas1Reste\\Roberta\\Roberta\\Roberta\\Roberta.csproj"
             }
           }
         }
