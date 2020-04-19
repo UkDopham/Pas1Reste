@@ -4,7 +4,7 @@ using System.Diagnostics.CodeAnalysis;
 using System.Linq;
 using System.Text;
 
-namespace KNNPING.Models
+namespace Roberta.Models
 {
     public class Product : IComparable<Product>
     {

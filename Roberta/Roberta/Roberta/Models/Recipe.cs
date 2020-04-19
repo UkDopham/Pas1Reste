@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace KNNPING.Models
+namespace Roberta.Models
 {
     public class Recipe
     {
