@@ -34,7 +34,7 @@ namespace Roberta.Models
         public static List<Product> GetAllProducts(List<Recipe> recettes){
             List<Product> products = new List<Product>();
 
-            recettes.ForEach(r => products.AddRange(r.Products()));
+            recettes.ForEach(r => products.AddRange(r.Products));
 
             return products;
         }

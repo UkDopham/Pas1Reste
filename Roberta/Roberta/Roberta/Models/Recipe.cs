@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Text;
 
 namespace Roberta.Models
@@ -95,7 +96,7 @@ namespace Roberta.Models
             this._name = name;
             this._description = description;
             this._lastCooked = lastCooked;
-            this._products = new Product();
+            this._products = new List<Product>();
             this._path = @"recipes/"+path;
             this._count = count;
         }
@@ -103,8 +104,9 @@ namespace Roberta.Models
         public void AddProduct(string nomProduit){
             _products.Add(new Product(nomProduit, this._name));
         }
-         public void AddProduct(params List<string> nomProduits){
-            nomProduits.ForEach(s => _products.Add(new Product(s, this._name)));            
+         public void AddProduct(params string[] nomProduits){
+            var tab = nomProduits.ToList();
+            tab.ForEach(s => _products.Add(new Product(s, this._name)));            
         }
 
 

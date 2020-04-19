@@ -7,8 +7,8 @@ namespace Roberta.Models
 {
     public static class DataStatic
     {
-        List<Recipe> recipes = new List<Recipe>();
-        List<Product> products = Product.GetAllProducts(recipes);
+        static List<Recipe> recipes = new List<Recipe>();
+        static List<Product> products = Product.GetAllProducts(recipes);
 
         public static void PeuplementRecettes(){
             
@@ -54,7 +54,7 @@ namespace Roberta.Models
 
 
 
-            recipes.Add(tartelleteFruits,biscote,cafeGourmant,chocolat,gateauCitron,gateauChocolat,hamburger,macarons,pizzaMargarita,salade,gateauAuFour,ramen);
+            recipes.AddRange(new List<Recipe> { tartelleteFruits, biscote, cafeGourmant, chocolat, gateauCitron, gateauChocolat, hamburger, macarons, pizzaMargarita, salade, gateauAuFour, ramen });
         }
 
 
