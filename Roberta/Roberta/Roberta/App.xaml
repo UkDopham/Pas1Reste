@@ -6,8 +6,11 @@
              mc:Ignorable="d"
              x:Class="Roberta.App">
     <Application.Resources>
+        <OnPlatform x:TypeArguments="x:String" x:Key="TitleFont">
+            <On Platform="Android" Value="VCR_OSD_MONO_1.001.ttf#Open Sans" />
+        </OnPlatform>
         <OnPlatform x:TypeArguments="x:String" x:Key="NormalFont">
-            <On Platform="Android" Value="ClassicNoshRegular.ttf#Open Sans" />
+            <On Platform="Android" Value="ComfortaaRegular.ttf#Open Sans" />
         </OnPlatform>
     </Application.Resources>
 </Application>

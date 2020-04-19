@@ -6,27 +6,33 @@
              mc:Ignorable="d"
              x:Class="Roberta.Views.MainMenu">
   <ContentView.Content>
-        <Grid BackgroundColor="{Binding Red}">
+        <Grid BackgroundColor="{Binding Grey}">
             <Grid.RowDefinitions>
                 <RowDefinition Height="5*"/>
                 <RowDefinition Height="*"/>
             </Grid.RowDefinitions>
 
+            
+            
             <StackLayout>
                 <Label Text="RobertAI"
                    Margin="50,100,50,10"
-                       FontSize="140"
+                       FontSize="70"
+                       TextColor="{Binding Red}"
                        HorizontalOptions="Center"
-                       TextColor="White"
                        FontFamily="{StaticResource NormalFont}"/>
                 
                 <Label Text=" par PIXOU"
                        Margin="100,0"
-                       FontSize="25"
+                       FontSize="20"
+                       TextColor="{Binding Red}"
                        HorizontalOptions="Center"
-                       TextColor="White"/>
+                       FontFamily="{StaticResource NormalFont}"/>
             </StackLayout>
-            
+
+            <Image 
+                   Source="recipes\ramen.jpg"/>
+
             <Grid Grid.Row="1">
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition Width="*"/>
@@ -36,56 +42,31 @@
                     <ColumnDefinition Width="*"/>
                 </Grid.ColumnDefinitions>
 
-                <StackLayout Grid.Column="0"
-                             Margin="5">
-                    
-                    
-                    <ImageButton Padding="5"
-                             BackgroundColor="Transparent"
+
+                <ImageButton Padding="5"
+                             Grid.Column="0"
+                             BackgroundColor="{Binding Red}"
                              Source="book.png"/>
-                    
-                </StackLayout>
 
-                <StackLayout Grid.Column="1"
-                             Margin="5">
-                    
-
-                    <ImageButton Padding="5"
-                             BackgroundColor="Transparent"
+                <ImageButton Padding="5"
+                             Grid.Column="1"
+                             BackgroundColor="{Binding Red}"
                              Source="heart.png"/>
 
-                </StackLayout>
-
-                <StackLayout Grid.Column="2"
-                             Margin="5">
-                   
-
-                    <ImageButton Padding="5"
-                             BackgroundColor="Transparent"
+                <ImageButton Padding="5"
+                             Grid.Column="2"
+                             BackgroundColor="{Binding Red}"
                              Source="artificial.png"/>
 
-                </StackLayout>
-
-                <StackLayout Grid.Column="3"
-                             Margin="5">
-                    
-
-                    <ImageButton Padding="5"
-                             BackgroundColor="Transparent"
+                <ImageButton Padding="5"
+                             Grid.Column="3"
+                             BackgroundColor="{Binding Red}"
                              Source="clock.png"/>
 
-                </StackLayout>
-
-                <StackLayout Grid.Column="4"
-                             Margin="5">
-                    
-
-                    <ImageButton Padding="5"
-                             BackgroundColor="Transparent"
-                             Source="openmenu.png"
-                                 Clicked="OptionsImageButton_Clicked"/>
-
-                </StackLayout>
+                <ImageButton Padding="5"
+                             Grid.Column="4"
+                             BackgroundColor="{Binding Red}"
+                             Source="openmenu.png"/>
 
             </Grid>
         </Grid>

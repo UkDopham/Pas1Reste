@@ -34,6 +34,13 @@ namespace Roberta.Views
                 return ColorRoberta.Blue();
             }
         }
+        public Color Grey
+        {
+            get
+            {
+                return ColorRoberta.Grey();
+            }
+        }
         public MainMenu()
         {
             InitializeComponent();

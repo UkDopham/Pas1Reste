@@ -19,5 +19,9 @@ namespace Roberta.Models
         {
             return Color.FromHex("#e8f3ff");
         }
+        public static Color Grey()
+        {
+            return Color.FromHex("#F5F5F5");
+        }
     }
 }
