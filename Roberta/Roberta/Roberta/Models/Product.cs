@@ -31,6 +31,14 @@ namespace Roberta.Models
             this._recipeName = recipeName;
         }
 
+        public static List<Product> GetAllProducts(List<Recipe> recettes){
+            List<Product> products = new List<Product>();
+
+            recettes.ForEach(r => products.AddRange(r.Products()));
+
+            return products;
+        }
+
         public float GetDistance()
         {
             Recipe recipe = recipes.First(x => x.Name == this._recipeName); //Trouver la recette à partir du nom dans la base de donnée
