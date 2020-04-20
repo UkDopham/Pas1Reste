@@ -1,2 +1,2 @@
-AdbTarget=-s MUENW18B23000237
+AdbTarget=-s emulator-5554
 AdbOptions=
