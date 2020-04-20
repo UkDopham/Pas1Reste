@@ -36,13 +36,10 @@ namespace Roberta.Views
 
         private void Init()
         {
-            List<Recipe> recipes = new List<Recipe>();
-            recipes.Add(new Recipe("Pizza", "test", DateTime.Now, "recipes/bagels.png", new List<Product>()));
-            recipes.Add(new Recipe("Pizza2", "test", DateTime.Now, "recipes/donut.png", new List<Product>()));
-            recipes.Add(new Recipe("Pizza3", "test", DateTime.Now, "_donut.jpg", new List<Product>()));
+            List<Recipe> recipes = DataStatic.histoRecipes;
             foreach (Recipe recipe in recipes)
             {
-                ContentSL.Children.Add(ControlsHelper.GetGrid(recipe.Name ,40,recipe.Path));
+                ContentSL.Children.Add(ControlsHelper.GetGrid(recipe.Name ,30,recipe.Path));
             }
         }
 

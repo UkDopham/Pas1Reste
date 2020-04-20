@@ -15,14 +15,56 @@
             <Grid BackgroundColor="{Binding Red}">
                 <Label Text="RobertIA"
                        FontFamily="{StaticResource NormalFont}"
-                       FontSize="30"
+                       FontSize="35"
                        Margin="10"
                        TextColor="White"/>
             </Grid>
 
-            <ScrollView Grid.Row="1">
-                <StackLayout x:Name="ContentSL"/>
-            </ScrollView>
+            <Grid Grid.Row="1">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="2*"/>
+                        <RowDefinition Height="3*"/>
+                    </Grid.RowDefinitions>
+                    <Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="*"/>
+                            <RowDefinition Height="*"/>
+                        </Grid.RowDefinitions>
+                        
+                        <Label Text="Smart Recette "
+                           HorizontalOptions="Center"
+                           TextColor="{Binding Red}"
+                           FontSize="30"/>
+
+                        <Button Margin="100,0"
+                                BackgroundColor="{Binding Red}"
+                                Text="Ajouter"
+                                TextColor="White"
+                                Clicked="Button_Clicked"
+                                Grid.Row="1"/>
+                    </Grid>
+
+                    <ScrollView Grid.Row="1"
+                                Orientation="Horizontal">
+
+                        <StackLayout 
+                                 Orientation="Horizontal"
+                                 x:Name="ProductSL">
+                        </StackLayout>
+                    </ScrollView>
+                </Grid>
+                
+                <ScrollView Grid.Row="1">
+                    <StackLayout x:Name="ContentSL"/>
+                </ScrollView>
+            </Grid>
+            
         </Grid>
     </ContentView.Content>
 </ContentView>

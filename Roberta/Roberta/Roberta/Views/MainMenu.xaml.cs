@@ -45,6 +45,7 @@ namespace Roberta.Views
         {
             InitializeComponent();
             BindingContext = new Title();
+            DataStatic.PeuplementRecettes();
         }
 
         private void OptionsImageButton_Clicked(object sender, EventArgs e)

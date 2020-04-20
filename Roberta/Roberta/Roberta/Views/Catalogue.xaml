@@ -15,7 +15,7 @@
             <Grid BackgroundColor="{Binding Red}">
                 <Label Text="Catalogue"
                        FontFamily="{StaticResource NormalFont}"
-                       FontSize="30"
+                       FontSize="35"
                        Margin="10"
                        TextColor="White"/>
             </Grid>

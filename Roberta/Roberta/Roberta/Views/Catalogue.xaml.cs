@@ -31,7 +31,16 @@ namespace Roberta.Views
         public Catalogue()
         {
             InitializeComponent();
+            Init();
         }
-       
+
+        private void Init()
+        {            
+            List<Recipe> recipes = DataStatic.allRecipes;
+            foreach (Recipe recipe in recipes)
+            {
+                ContentSL.Children.Add(ControlsHelper.GetGrid(recipe.Name, 30, recipe.Path));
+            }
+        }
     }
 }

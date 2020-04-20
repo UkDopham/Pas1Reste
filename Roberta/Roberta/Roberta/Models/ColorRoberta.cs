@@ -23,5 +23,9 @@ namespace Roberta.Models
         {
             return Color.FromHex("#F5F5F5");
         }
+        public static Color DarkRed()
+        {
+            return Color.FromHex("#800000");
+        }
     }
 }

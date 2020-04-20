@@ -7,7 +7,7 @@ namespace Roberta.Models
 {
     public static class ControlsHelper
     {
-        public static Label GetLabel(string text, int fontSize)
+        public static Label GetLabel(string text, int fontSize, Color color)
         {
             return new Label()
             {
@@ -16,19 +16,23 @@ namespace Roberta.Models
                 FontSize = fontSize,
                 BackgroundColor = Color.Transparent,
                 FontFamily = "ComfortaaRegular.ttf#Open Sans",
-                TextColor = ColorRoberta.Red(),
+                TextColor = color,                
+                FontAttributes = FontAttributes.Bold
             };
         }
         public static Grid GetFavoriGrid(string text, int fontSize, string path)
         {
             Grid grid = new Grid();
             Image image = GetImage(path);
-            Label label = GetLabel(text, fontSize);
+            Label label = GetLabel(text, fontSize, ColorRoberta.DarkRed());
             
             Image imageHeart = new Image()
             {
-                HeightRequest= 20,
-                WidthRequest = 20,
+                HeightRequest= 40,
+                MinimumHeightRequest = 40,
+                MinimumWidthRequest = 40,
+                WidthRequest = 40,
+                Margin = new Thickness(20),
                 Source = "heart.png",
                 HorizontalOptions = LayoutOptions.End,
             }; 
@@ -42,7 +46,7 @@ namespace Roberta.Models
         {
             Grid grid = new Grid();
             Image image = GetImage(path);
-            Label label = GetLabel(text, fontSize);
+            Label label = GetLabel(text, fontSize, ColorRoberta.DarkRed());
             grid.Children.Add(image);
             grid.Children.Add(label);
 
@@ -52,6 +56,8 @@ namespace Roberta.Models
         {
             return new Image()
             {
+                MinimumHeightRequest = 40,
+                MinimumWidthRequest = 40,
                 Source = path,
             };
         }

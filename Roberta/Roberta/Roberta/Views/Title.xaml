@@ -8,9 +8,9 @@
   <ContentView.Content>
       <StackLayout>
             <StackLayout>
-                <Label Text="RobertAI"
+                <Label Text="Pas1Reste"
                    Margin="50,100,50,10"
-                       FontSize="70"
+                       FontSize="50"
                        TextColor="{Binding Red}"
                        HorizontalOptions="Center"
                        FontFamily="{StaticResource NormalFont}"/>
